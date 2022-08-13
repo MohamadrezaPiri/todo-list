@@ -80,26 +80,26 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todo_list',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'M123456M'
-    }
-}
-
-
 # DATABASES = {
 #      'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'piri$todo-list',
-#         'HOST': 'piri.mysql.pythonanywhere-services.com',
-#         'USER': 'piri',
+#         'NAME': 'todo_list',
+#         'HOST': 'localhost',
+#         'USER': 'root',
 #         'PASSWORD': 'M123456M'
 #     }
 # }
+
+
+DATABASES = {
+     'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'piri$todo-list',
+        'HOST': 'piri.mysql.pythonanywhere-services.com',
+        'USER': 'piri',
+        'PASSWORD': 'M123456M'
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
